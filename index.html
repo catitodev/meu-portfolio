@@ -1,113 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Profissional</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <meta name="description" content="CatitoDev - Desenvolvedor Web e Mobile.">
+    <title>CatitoDev</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Menu de Navegação -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Cabeçalho -->
+    <header class="header">
         <div class="container">
-            <a class="navbar-brand" href="#">Meu Portfólio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projetos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
-                </ul>
-            </div>
+            <img src="logo.png" alt="Logo CatitoDev" class="logo">
+            <h1>Bem-vindo ao CatitoDev</h1>
+            <p>Desenvolvedor Web e Mobile apaixonado por tecnologia.</p>
         </div>
-    </nav>
+    </header>
 
     <!-- Seção Home -->
-    <section id="home" class="text-center text-light bg-primary py-5">
+    <section class="home">
         <div class="container">
-            <h1>Bem-vindo ao Meu Portfólio</h1>
-            <p>Desenvolvendo soluções modernas e responsivas para web e mobile.</p>
+            <img src="sua-foto.jpg" alt="Foto do CatitoDev" class="foto-oval">
+            <h2>Olá! Eu sou Catito</h2>
+            <p>Transformo ideias em projetos digitais incríveis.</p>
         </div>
     </section>
 
-    <!-- Seção Serviços -->
-    <section id="services" class="py-5">
-        <div class="container text-center">
-            <h2 class="mb-4">Meus Serviços</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <i class="bi bi-laptop fs-1"></i>
-                    <h3>Desenvolvimento Web</h3>
-                    <p>Criação de sites responsivos e funcionais.</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="bi bi-phone fs-1"></i>
-                    <h3>Aplicativos Mobile</h3>
-                    <p>Aplicativos para Android e iOS com design intuitivo.</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="bi bi-gear fs-1"></i>
-                    <h3>Integração de APIs</h3>
-                    <p>Conexão entre sistemas para maior eficiência.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção Projetos -->
-    <section id="projects" class="py-5 bg-light">
-        <div class="container text-center">
-            <h2 class="mb-4">Meus Projetos</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="project1.jpg" alt="Projeto 1" class="img-fluid mb-3">
-                    <h3>Projeto 1</h3>
-                    <p>Descrição do projeto 1.</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="project2.jpg" alt="Projeto 2" class="img-fluid mb-3">
-                    <h3>Projeto 2</h3>
-                    <p>Descrição do projeto 2.</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="project3.jpg" alt="Projeto 3" class="img-fluid mb-3">
-                    <h3>Projeto 3</h3>
-                    <p>Descrição do projeto 3.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção Contato -->
-    <section id="contact" class="py-5">
+    <!-- Fundo atrativo -->
+    <section class="sobre">
         <div class="container">
-            <h2 class="text-center mb-4">Entre em Contato</h2>
-            <form id="contactForm" class="needs-validation" novalidate>
-                <div class="mb-3">
-                    <label for="name" class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="name" required>
-                    <div class="invalid-feedback">Por favor, insira seu nome.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" required>
-                    <div class="invalid-feedback">Por favor, insira um email válido.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Mensagem</label>
-                    <textarea class="form-control" id="message" rows="4" required></textarea>
-                    <div class="invalid-feedback">Por favor, insira sua mensagem.</div>
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
+            <h2>Sobre mim</h2>
+            <p>Sou um desenvolvedor com experiência em HTML, CSS, JavaScript e apaixonado por criar soluções tecnológicas para o mundo.</p>
         </div>
     </section>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+dnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
